@@ -1,5 +1,14 @@
 .main-wrapper {
 	height: 700px;
-	/*background: url(../images/bookshelf.jpg) no-repeat center center fixed;
-	background-size: cover;*/
+	background: url(../images/bookshelf.jpg) no-repeat center center fixed;
+	background-size: cover;
+	position: relative;
+}
+
+
+.search-bar {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	+transform(translate(-50%, -50%));
 }
