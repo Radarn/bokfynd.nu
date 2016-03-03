@@ -12,3 +12,12 @@
 	top: 50%;
 	+transform(translate(-50%, -50%));
 }
+
+.light, footer.page-footer .footer-copyright {
+	height: 100%;
+	line-height: 1.5;
+}
+
+footer.page-footer {
+	margin-top: 0;
+}
