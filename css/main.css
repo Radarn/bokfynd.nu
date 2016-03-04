@@ -13,6 +13,8 @@
 	+transform(translate(-50%, -50%));
 }
 
+
+
 .light, footer.page-footer .footer-copyright {
 	height: 100%;
 	line-height: 1.5;
@@ -31,6 +33,7 @@ footer.page-footer {
 	width: 55px;
 	height: 55px;
 }
+
 
 #mobile-search {
 	position: absolute;
@@ -71,6 +74,17 @@ input[type=text] {
 		width: 65px;
 		height: 65px;
 	}
+	.brand-logo-title {
+		font-size: 1.5em;
+	}
 
+}
+
+@media (min-width: 992px) {
+	.brand-logo-title {
+		position: absolute;
+		left: 22%;
+		text-align: left;
+	}
 }
 
