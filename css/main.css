@@ -1,5 +1,5 @@
 .main-wrapper {
-	height: 700px;
+	height: 570px;
 	background: url(../images/bookshelf.jpg) no-repeat center center fixed;
 	background-size: cover;
 	position: relative;
@@ -37,10 +37,25 @@ footer.page-footer {
 	top:60%;
 }
 
+.title {
+	color: white;
+	position: absolute;
+	top: 30%;
+	margin: 0px;
+}
+
 #desktop-search {
 	display: none;
 	position: absolute;
 	top:60%;
+}
+
+input[type=text] {
+	border-left: 1px solid #9e9e9e;
+	border-right: 1px solid #9e9e9e;
+	border-top: 1px solid #9e9e9e;
+	color: white;
+	background-color: rgba(0,0,0, 0.7);
 }
 
 @media (min-width: 600px) {
@@ -56,5 +71,6 @@ footer.page-footer {
 		width: 65px;
 		height: 65px;
 	}
+
 }
 
