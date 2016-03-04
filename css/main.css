@@ -64,7 +64,7 @@ input[type=text] {
 @media (min-width: 600px) {
 	#desktop-search {
 		display: block;
-		top: 52%;
+		top: 48.5%;
 		right: 17%;
 	}
 	#mobile-search {
