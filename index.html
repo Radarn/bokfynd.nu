@@ -12,13 +12,14 @@
 	<header>
 		<nav class="blue accent-1">
 			<div class="container">
+				<a href="#" class="brand-logo"><img class="circle responsive-img" src="images/owl.jpg"></a>
 				<ul class="right hide-on-med-and-down">
 				    <li><a href="#!">Sök böcker</a></li>
 				    <li><a href="#!">Information</a></li>
 				    <li><a href="#!">Hur fungerar tjänsten?</a></li>
 				    <li><a href="#!">Om oss</a></li>
 				</ul>
-			  	<ul id="slide-out" class="side-nav">
+			  	<ul id="slide-out" class="side-nav blue accent-1">
 				    <li><a href="#!">Sök böcker</a></li>
 				    <li><a href="#!">Information</a></li>
 				   	<li><a href="#!">Hur fungerar tjänsten?</a></li>
@@ -31,11 +32,13 @@
 	<main class="main-wrapper">
 		<div class="row">
 			<input type="text" class="col s12 m6 offset-m3 search-bar" placeholder="Titel, författare, ISBN, bokförlag, kategori...">
+			<a id="mobile-search" class="waves-effect waves-light btn light-green col s8 offset-s2"><i class="material-icons left">search</i>search</a>
+			<a id="desktop-search" class="btn-floating btn-large waves-effect waves-light light-green "><i class="material-icons">search</i></a>
 		</div>
 	</main>
 	<footer class="page-footer blue accent-1">
 	        <div class="container">
-	            <div class="row">
+	            <div class="row" id="ok">
 	              	<div class="col s12 m6">
 		              	<i class="large material-icons">info</i>
 		                <p>Bokfynd.nu använder du när du handlar böcker på Internet. Skriv in boktiteln, författaren,ISBN-numret, bokförlag eller kategori i sökformuläret. I det resulterande sökresultatet väljer du därefter ut just den bok som du är intresserad av. Därefter hämtar vi automatiskt priser och leveranstider direkt från butikernas hemsidor och listar resultatet.</p>

@@ -21,3 +21,40 @@
 footer.page-footer {
 	margin-top: 0;
 }
+
+#slide-out > li > a:hover {
+	background-color: white;
+	color: #8bc34a;
+}
+
+.brand-logo > img {
+	width: 55px;
+	height: 55px;
+}
+
+#mobile-search {
+	position: absolute;
+	top:60%;
+}
+
+#desktop-search {
+	display: none;
+	position: absolute;
+	top:60%;
+}
+
+@media (min-width: 600px) {
+	#desktop-search {
+		display: block;
+		top: 52%;
+		right: 17%;
+	}
+	#mobile-search {
+		display: none;
+	}
+	.brand-logo > img {
+		width: 65px;
+		height: 65px;
+	}
+}
+
