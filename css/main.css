@@ -61,7 +61,7 @@ input[type=text] {
 	background-color: rgba(0,0,0, 0.7);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 601px) {
 	#desktop-search {
 		display: block;
 		top: 48.5%;
@@ -85,6 +85,12 @@ input[type=text] {
 		position: absolute;
 		left: 22%;
 		text-align: left;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 770px) {
+	#desktop-search {
+		right: 13%;
 	}
 }
 
